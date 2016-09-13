@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="container">
+    <div class="jumbotron">
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 center-text">
+                <h2 class="main-title">Gerador de getters e setters 0.1</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Insira os atributos da classe</h3>
+
+
+                <textarea id="atributos" class="form-control" name="name" rows="8" cols="40"></textarea>
+
+
+                <button class="btn btn-primary" onclick="generateCode()">Gerar getters e setters</button>
+
+            </div>
+            <div class="col-sm-6">
+                <div id="output-container">
+                    <h3>Este foi o código gerado</h3>
+
+                    <pre id="output" class="pre-scrollable">
+
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span class="fa fa-fw fa-code" alt="feito"></span> com <span class="fa fa-heart" alt="amor"></span> por <a href="http://pt.stackoverflow.com/users/18246/jbueno" target="_blank">Jefh</a>
+        <br>
+        Quer me agradecer? Me pague um <span class="fa fa-coffee"></span> ou uma <span class="fa fa-beer"></span>
+    </footer>
+</body>
+
+</html>
