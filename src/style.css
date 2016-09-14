@@ -1,3 +1,6 @@
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+
 html {
   height: 100%;
   font-size: 100%;
@@ -43,7 +46,7 @@ footer {
 }
 
 pre {
-    font-family: "Consolas";
+    font-family: Consolas, monospace;
     -moz-tab-size:    4; /* Firefox 4+ */
     -o-tab-size:      4; /* Opera 11.5 & 12.1 only */
     tab-size:         4; /* Chrome 21+, Safari 6.1+, Opera 15+ */
@@ -58,7 +61,7 @@ textarea {
 }
 
 .insert-area, .example-area {
-    font-family: "Consolas";
+    font-family: Consolas, monospace;
 }
 
 .insert-area {
