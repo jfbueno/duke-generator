@@ -60,6 +60,10 @@ textarea {
     resize: none;
 }
 
+.mg-bottom-sm {
+    margin-bottom: 10px;
+}
+
 .insert-area, .example-area {
     font-family: Consolas, monospace;
 }
