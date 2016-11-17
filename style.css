@@ -1,0 +1,85 @@
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  color: #565656;
+  background: #F0F3F3;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  padding: 0px;
+  margin: 0px;
+  min-height: 100%;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #424856;
+}
+
+.main-title {
+    color: #444444;
+}
+
+footer {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.pre-scrollable {
+    max-height: 350px;
+}
+
+pre {
+    font-family: Consolas, monospace;
+    -moz-tab-size:    4; /* Firefox 4+ */
+    -o-tab-size:      4; /* Opera 11.5 & 12.1 only */
+    tab-size:         4; /* Chrome 21+, Safari 6.1+, Opera 15+ */
+}
+
+button {
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.mg-bottom-sm {
+    margin-bottom: 10px;
+}
+
+.insert-area, .example-area {
+    font-family: Consolas, monospace;
+}
+
+.insert-area {
+    min-height: 350px;
+}
+
+.example-area, .code-example {
+    max-height: 200px;
+    height: 180px;
+    min-height: 180px;
+    margin-bottom: 10px;
+}
+
+.code-output {
+    min-height: 350px;
+    max-height: 350px;
+}
