@@ -22,13 +22,13 @@
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 Exemplo <span>de entrada</span>: <small class="hidden-md hidden-sm hidden-xs" style="font-size:11px;">(Não esqueça os ponto-e-vírgula, quebras de linha são opcionais)</small>
-                <textarea class="form-control example-area" readonly>private int id;
+                <textarea class="form-control example-area code-area" readonly>private int id;
 private String nome;
 private Compra ultimaCompra;</textarea>
 
 
                 <h3>Insira os atributos da classe</h3>
-                <textarea id="atributos" class="form-control insert-area"></textarea>
+                <textarea id="atributos" class="form-control insert-area code-area"></textarea>
 
                 <button class="btn btn-primary mg-bottom-sm" onclick="generateCode()">Gerar getters e setters</button>
 
@@ -37,7 +37,7 @@ private Compra ultimaCompra;</textarea>
                 <div id="output-container">
 
                     Exemplo <span>de saída</span>:
-                    <pre class="pre-scrollable code-example">
+                    <pre class="pre-scrollable code-example code-area">
 public int getId() {
 	return this.id;
 }
@@ -64,7 +64,7 @@ public void setUltimaCompra(Compra ultimaCompra) {
                     </pre>
 
                     <h3>Código gerado</h3>
-                    <pre id="output" class="pre-scrollable code-output">
+                    <pre id="output" class="pre-scrollable code-output code-area">
 
                     </pre>
                 </div>

@@ -45,7 +45,8 @@ footer {
     max-height: 350px;
 }
 
-pre {
+.code-area {
+    font-size: 14px;
     font-family: Consolas, monospace;
     -moz-tab-size:    4; /* Firefox 4+ */
     -o-tab-size:      4; /* Opera 11.5 & 12.1 only */
@@ -62,10 +63,6 @@ textarea {
 
 .mg-bottom-sm {
     margin-bottom: 10px;
-}
-
-.insert-area, .example-area {
-    font-family: Consolas, monospace;
 }
 
 .insert-area {
