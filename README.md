@@ -1,6 +1,6 @@
-# Getter n' setter generator
+# Duke generator
 
-This is a very simple application used to generate gets and sets to (Java) private attributes. This application is hosted [here](http://duke-generator.esy.es/).
+This is a very simple application used to generate gets and sets to (Java) private attributes. You can access the application [here](https://jefhtavares.github.io/duke-generator/).
 
 ## License
 
