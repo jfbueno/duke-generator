@@ -3,11 +3,11 @@ function generateCode(){
     const templateSetter = "public void set#CAPITALIZED_NAME#(#TYPE# #NAME#) {\n\tthis.#NAME# = #NAME#;\n}";
     const commentTemplate = "/* Atributo #NAME# */"
 
-    var input = document.getElementById("atributos").value;
+    var input = document.getElementById('atributos').value;
     var atributos = input.split(';')
 
-    var outputEl = document.getElementById("output");
-    outputEl.innerText = "";
+    var outputEl = document.getElementById('output');
+    outputEl.innerText = '';
 
     atributos.forEach(function(el){
         if(!el)
@@ -39,4 +39,6 @@ window.onload = function () {
         var target = this;
         return target.split(search).join(replacement);
     };
+
+    document.getElementById('bt-generate-code').addEventListener('click', generateCode);
 }
